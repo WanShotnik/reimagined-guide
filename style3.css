@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(221, 239, 239);
+}
+
+.smit{
+    color: rgb(215, 15, 15);
+}
+
+.glav {
+    position: absolute; 
+    top: 0px;  
+}
+
+nav {
+    width: 850px;
+    margin: 100px;
+}
+
+nav:before {
+    content: '';
+    display: block;
+    height: 50px;
+    width: 100%;
+    background: rgb(13, 52, 130);
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 50px;
+}
+
+ul li {
+    float: left;
+}
+
+ul li a {
+    color: #fff;
+    display: block;
+    height: 50px;
+    padding:0 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 50px;
+}
+ul li a:hover {
+    background: #d34d43;
+}
+
+.informacion {
+    position: absolute;
+    top: 130px; 
+    right: 300px;
+    color: rgb(237, 12, 12);
+    padding-left: 900px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 30px;
+}
+
